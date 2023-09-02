@@ -1,0 +1,25 @@
+{
+  "name": "splashesofcolor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc-watch --onSuccess 'node ./dist/index.js'",
+    "start": "tsc && node dist/index.js",
+    "deploy": "tsc && node dist/deploy.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.30",
+    "@types/node": "^20.3.1",
+    "@types/node-schedule": "^2.1.0",
+    "better-sqlite3": "^7.6.2",
+    "discord.js": "^14.4.0",
+    "moment-timezone": "^0.5.43",
+    "node-schedule": "^2.1.0",
+    "quick.db": "^9.1.7",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.1.3"
+  }
+}
